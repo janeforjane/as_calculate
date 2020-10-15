@@ -32,19 +32,6 @@ public class CalcServlet extends HttpServlet {
         } catch (Exception e) {
             resp.sendRedirect("error.html");
 
-
-//            PrintWriter writer = resp.getWriter();
-//
-//            writer.write("<html>\n" +
-//                    "<head>\n" +
-//                    "    <title>YYY</title>\n" +
-//                    "</head>\n" +
-//                    "<body>\n" +
-//                    " You enter parameters incorrect type. \n" +
-//                    " Try again <a href=\"hello.html\">here</a>\n" +
-//                    "</body>\n" +
-//                    "</html>");
-
         }
 
     }
